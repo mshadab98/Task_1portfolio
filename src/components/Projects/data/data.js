@@ -2,8 +2,8 @@
     {
       title: "Food Ordering App",
       description: "A Zaika-Darbar food built with React.js and Tailwind CSS for online food ordering.",
-      demoLink: "live link",
-      sourceCode: "source link",
+      demoLink: "https://zaika-darbar.vercel.app/",
+      sourceCode: "https://github.com/mshadab98/Zaika-Darbar.git",
      
       video:"public/zaikaDarbar.mp4"
     
