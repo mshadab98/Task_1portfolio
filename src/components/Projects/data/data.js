@@ -13,12 +13,14 @@
       title: "College Website",
       description: "A modern college website featuring a testimonial section,  and anstudents Alumini Built with the latest web technologies to ensure a smooth browsing experience.",
       img: "images/collegewebsite.png",
+       source:"https://github.com/mshadab98/collegeWebsite.git"
     },
     
     {
       title: "Course selling store",
       description: "A these project are under processing when it will be complted upadated here.",
       img:"images/studyNotation.png",
+      source:"underprocessing"
       
       
     },
