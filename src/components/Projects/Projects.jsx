@@ -19,7 +19,8 @@ const Projects = () => {
               key={index}
               title={project.title}
               description={project.description}
-               video={project.video}
+               img={project.img}
+               source={project.source}
             />
           ))}
         </div>

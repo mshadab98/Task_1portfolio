@@ -3,22 +3,22 @@
     {
       title: "Food Ordering App",
       description: "A Zaika-Darbar food built with React.js and Tailwind CSS for online food ordering.",   
-      video:"/video/zaikadarbar.mp4",
+      img:"images/zaikadarbar.png",
+      source:"https://github.com/mshadab98/Zaika-Darbar.git"
     
     
    
     },
     {
-      title: "Modern Website",
-      description: "Modern Website with fully animation website",
-      video:"/video/modernWebsite.mp4",
-      
-      
+      title: "College Website",
+      description: "A modern college website featuring a testimonial section,  and anstudents Alumini Built with the latest web technologies to ensure a smooth browsing experience.",
+      img: "images/collegewebsite.png",
     },
+    
     {
       title: "Course selling store",
       description: "A these project are under processing when it will be complted upadated here.",
-      video:"/video/notation.mp4",
+      img:"images/studyNotation.png",
       
       
     },
