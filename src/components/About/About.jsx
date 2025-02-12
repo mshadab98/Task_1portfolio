@@ -1,5 +1,6 @@
 import React from "react";
 import { FaLongArrowAltRight } from "react-icons/fa";
+import AboutPic from "../../assets/aboutPic.jpg"
 
 const About = () => {
   return (
@@ -17,7 +18,7 @@ const About = () => {
           {/* Left  */}
           <div className="md:w-1/2 flex justify-center">
             <img
-              src="/public/aboutPic.jpg"
+              src={AboutPic}
               alt="Profile"
               className="h-80 md:w-90  rounded-3xl border-4 border-teal-400 shadow-lg"
             />
