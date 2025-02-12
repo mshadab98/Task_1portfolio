@@ -4,8 +4,8 @@ import { IoClose } from "react-icons/io5";
 
 const Navbar = () => {
 
-const [menu , setopenMenu] = useState(false)
-const [showmenu , setshowoMenu] = useState(false)
+const [menu , setMenu] = useState(false)
+
 
 
   return (
@@ -35,10 +35,21 @@ const [showmenu , setshowoMenu] = useState(false)
 
    </ul>
 
-
-   {showmenu ? (<IoMenu size={30} className='md:hidden absolute right-10 top-6 transition-all duration-300' onClick={()=>{
-    {setopenMenu(!menu); setshowoMenu(!showmenu)}
-   }} />  ) : <IoClose size={30} className='md:hidden absolute right-10 top-6 transition-all duration-300'/> }
+{
+  menu ? (
+    <IoClose size={30}
+    className='md:hidden absolute right-10 top-6 transition-all duration-300'
+    onClick={()=> setMenu(false)}
+     /> )
+    :
+    (
+      <IoMenu size={30}
+      className='md:hidden absolute right-10 top-6 transition-all duration-300'
+      onClick={() => setMenu(true)} />
+    )
+  
+}
+   
    </nav>
    </>
   )
