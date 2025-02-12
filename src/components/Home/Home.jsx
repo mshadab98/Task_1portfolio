@@ -4,6 +4,7 @@ const Home = () => {
   return (
     <>
     <section id='Home' className='text-[#204051] min-h-screen  flex items-center mt-4'>
+
        {/* // left section  */}
 
         <div className='container mx-auto max-w-screen-lg  flex flex-col-reverse md:flex-row items-center  px-8 md:px-16 '>
@@ -18,7 +19,7 @@ const Home = () => {
 
            {/* right section */}
            <div className="md:w-1/2 flex justify-center">
-            <img className='w-60 md:w-80  rounded-full border-4 border-teal-400 shadow-lg' src="public/profile.jpg" alt="" />
+            <img className='w-60 md:w-80  rounded-full border-4 border-teal-400 shadow-lg' src="/public/profile.jpg" alt="" />
            </div>
         </div>
     </section>

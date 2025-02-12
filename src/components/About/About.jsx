@@ -17,7 +17,7 @@ const About = () => {
           {/* Left  */}
           <div className="md:w-1/2 flex justify-center">
             <img
-              src="public/aboutPic.jpg"
+              src="/public/aboutPic.jpg"
               alt="Profile"
               className="h-80 md:w-90  rounded-3xl border-4 border-teal-400 shadow-lg"
             />
